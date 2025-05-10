@@ -39,3 +39,19 @@ Non-functional requirements define how the system performs a function. These req
 - The interface shall be accessible and responsive across all modern devices.
 - The system shall support up to 10,000 concurrent users without performance degradation.
 
+## Use Case Diagrams
+Use Case Diagrams are a type of behavioral diagram defined by UML (Unified Modeling Language) that visually represent the interactions between users (actors) and a system to achieve specific goals (use cases). These diagrams help illustrate what the system does from the user's perspective, not how it does it.
+### Benefits of Use Case Diagrams
+- **Clarify System Scope**  
+  Help stakeholders understand the system boundaries and what functionality will be included.
+- **Improve Communication**  
+  Provide a simple and visual way for developers, clients, and end-users to discuss requirements.
+- **Identify Actors and Interactions**  
+  Clearly show who interacts with the system and what functions they perform.
+- **Aid in Planning and Development**  
+  Serve as a foundation for identifying system functionalities, which can guide testing and development phases.
+- **Support Requirement Validation**  
+  Ensure all user needs are captured and represented before development begins.
+
+
+  
