@@ -54,5 +54,18 @@ Use Case Diagrams are a type of behavioral diagram defined by UML (Unified Model
   Ensure all user needs are captured and represented before development begins.
 
 ![Booking System Use Case Diagram](https://github.com/phoebeobaje/requirement-analysis/blob/main/alx-booking-uc.png?raw=true)
-
-  
+## Acceptance Criteria
+### Importance of Acceptance Criteria
+- **Clarify Requirements:** Help remove ambiguity by clearly defining what is expected.
+- **Guide Development:** Serve as a checklist for developers to know when a feature is “done.”
+- **Enable Testing:** Provide measurable standards for QA teams to validate functionality.
+- **Ensure Alignment:** Align expectations between stakeholders and the development team.
+### Example: Acceptance Criteria for Checkout Feature in Booking Management System
+**Feature:** Checkout
+**Acceptance Criteria:**
+- The system shall allow users to review their booking details before payment.
+- Users must enter valid payment details to complete the transaction.
+- A booking confirmation email shall be sent after successful payment.
+- The system shall prevent double bookings for the same slot.
+- If payment fails, the booking shall not be confirmed, and the user will be notified.
+- Users shall see a success message upon completing the checkout process.
