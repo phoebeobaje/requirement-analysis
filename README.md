@@ -19,3 +19,23 @@ It involves understanding what users require from a system and documenting these
   Analyzing requirements to identify inconsistencies, conflicts, or missing elements, and modeling them using diagrams (like use case diagrams or data flow diagrams) for better understanding.
 - **Requirement Validation**  
   Ensuring the documented requirements are complete, correct, feasible, and approved by all relevant stakeholders to avoid miscommunication later in the development process.
+
+## Types of Requirements
+### Functional Requirements
+Functional requirements define what a system should do. They describe the features and functionalities that the system must support to fulfill user and business needs.
+**Examples for a Booking Management System:**
+- The system shall allow users to create, view, update, and cancel bookings.
+- The system shall send confirmation emails after successful bookings.
+- The admin shall be able to view all bookings and generate reports.
+- Users shall be able to search available booking slots by date and location.
+- The system shall validate user login credentials before granting access.
+
+### Non-functional Requirements
+Non-functional requirements define how the system performs a function. These requirements are related to performance, security, usability, reliability, and more.
+**Examples for a Booking Management System:**
+- The system shall respond to user actions within 2 seconds.
+- The application shall be available 99.9% of the time (high availability).
+- The system shall encrypt user data using industry-standard encryption protocols.
+- The interface shall be accessible and responsive across all modern devices.
+- The system shall support up to 10,000 concurrent users without performance degradation.
+
